@@ -1,0 +1,64 @@
+---
+pagetitle: "Delphine PA Dang · artist & researcher"
+---
+
+::: {.hero}
+[Artist · Musician · Researcher-in-training · Sydney]{.eyebrow}
+
+[Delphine PA Dang]{.hero-name}
+
+[Hi, I'm Delphine, a Vietnamese artist and researcher-in-training based in Sydney. My research brings together political theory, data science and statistical methods; my art moves between film, music and performance. Both are ways of asking questions about politics, identity and power.]{.hero-lede}
+:::
+
+::: {.grid .path-cards}
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<a class="path-card green" href="art-music.html">
+  <h3>Art &amp; Music</h3>
+  <p>Art films, music videos, commercials, and songs I've written and sung.</p>
+  <span class="arrow">See the work →</span>
+</a>
+```
+:::
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<a class="path-card blue" href="research.html">
+  <h3>Research</h3>
+  <p>Measuring political beliefs, evaluating language models, and statistics for policy.</p>
+  <span class="arrow">Read more →</span>
+</a>
+```
+:::
+
+::: {.g-col-12 .g-col-md-4}
+```{=html}
+<a class="path-card mix" href="about.html">
+  <h3>About me</h3>
+  <p>Opera, data science, political theory, and how they shape each other.</p>
+  <span class="arrow">Say hello →</span>
+</a>
+```
+:::
+
+:::
+
+::: {.feature-band}
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](images/an-eye-for-an-i.jpg){fig-alt="Poster for An Eye for an I: two close-up eyes facing each other across a dark band, with the title in white serif type."}
+:::
+::: {.g-col-12 .g-col-md-8}
+[Newest work · Art film]{.eyebrow}
+
+### An Eye for an I
+
+An audiovisual piece that translates my research on large language models into sound and image. Presented at the Charles Perkins Centre EMCR Symposium and the Parramatta Lanes pop-up gallery.
+
+[Watch the film →](art-music.qmd#an-eye-for-an-i)
+:::
+:::
+:::
+
+I welcome connections with researchers, artists, musicians and anyone curious about the questions that connect these fields. Find me on [LinkedIn](https://www.linkedin.com/in/phuonganh-dang/), [Instagram](https://www.instagram.com/delphinedang/) or [Linktree](https://linktr.ee/delphinepadang).

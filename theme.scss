@@ -1,0 +1,192 @@
+/*-- scss:defaults --*/
+
+// Fonts: Source Serif for headings (matches the "An Eye for an I" poster),
+// Source Sans for body text.
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+
+// Palette: pastel green + pastel blue on a soft mist background
+$mist:   #F4F8F6;   // page background
+$sage:   #CFE5D7;   // pastel green
+$sky:    #CFE0EE;   // pastel blue
+$ink:    #1E292A;   // text
+$teal:   #2B6A64;   // links & accents (readable on mist)
+$muted:  #5A6A69;   // secondary text
+$line:   #DCE7E2;   // hairlines
+
+$body-bg: $mist;
+$body-color: $ink;
+$primary: $teal;
+$link-color: $teal;
+$link-decoration: none;
+
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$headings-font-weight: 600;
+$font-size-base: 1.06rem;
+$line-height-base: 1.65;
+
+$navbar-bg: $mist;
+$navbar-fg: $ink;
+$navbar-hl: $teal;
+$footer-bg: $mist;
+$footer-fg: $muted;
+$border-radius: 6px;
+
+/*-- scss:rules --*/
+
+body { -webkit-font-smoothing: antialiased; }
+
+a { text-underline-offset: 3px; }
+a:hover { text-decoration: underline; }
+
+.navbar { border-bottom: 1px solid $line; }
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+// Page titles
+.quarto-title h1.title {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  letter-spacing: -0.01em;
+  margin-bottom: .2rem;
+}
+.quarto-title .subtitle {
+  font-family: $headings-font-family;
+  font-style: italic;
+  color: $muted;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 3.2rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid $line;
+}
+h3 { font-size: 1.35rem; margin-top: .3rem; }
+
+// Small uppercase label, like "AN ARTFILM BY" on the poster
+.eyebrow {
+  display: inline-block;
+  font-size: .78rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: $muted;
+  margin-bottom: .3rem;
+}
+
+// ---------- Home ----------
+.hero {
+  padding: 3.5rem 0 2rem;
+}
+.hero-name {
+  display: block;
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: clamp(2.8rem, 8vw, 5rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: .4rem 0 1.4rem;
+}
+.hero-lede {
+  font-size: 1.25rem;
+  max-width: 40rem;
+  color: $ink;
+}
+
+.path-cards { margin: 1.5rem 0 3rem; }
+.path-card {
+  display: block;
+  height: 100%;
+  padding: 1.6rem 1.5rem 1.4rem;
+  border-radius: 10px;
+  color: $ink !important;
+  text-decoration: none !important;
+  transition: transform .2s ease, box-shadow .2s ease;
+  h3 { margin: 0 0 .5rem; }
+  p  { margin: 0; color: $muted; font-size: .98rem; }
+  .arrow { display: inline-block; margin-top: 1rem; font-weight: 600; color: $teal; }
+  &:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(30,41,42,.08); }
+}
+.path-card.green { background: $sage; }
+.path-card.blue  { background: $sky; }
+.path-card.mix   { background: linear-gradient(135deg, $sage, $sky); }
+
+// Dark cinematic band for featured work
+.feature-band {
+  background: #111716;
+  color: #EEF3F1;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 1rem 0 3rem;
+  .eyebrow { color: #A9C9BC; }
+  h3 { color: #fff; font-size: 1.8rem; }
+  p { color: #D5DFDB; }
+  a { color: #BFE0D2; }
+  img { border-radius: 6px; width: 100%; }
+}
+
+// ---------- Works ----------
+.work { margin: 2.5rem 0 3.5rem; }
+.poster {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 14px 34px rgba(30,41,42,.18);
+}
+.credits {
+  font-size: .93rem;
+  color: $muted;
+  border-left: 3px solid $sage;
+  padding-left: .9rem;
+  margin-top: 1rem;
+  strong { color: $ink; font-weight: 600; }
+}
+.badge-award, .badge-nom {
+  display: inline-block;
+  font-size: .82rem;
+  font-weight: 600;
+  padding: .25rem .65rem;
+  border-radius: 999px;
+  margin: 0 .35rem .45rem 0;
+}
+.badge-award { background: $sage; color: #1C4A3F; }
+.badge-nom   { background: $sky;  color: #22465E; }
+
+.video-caption { margin-top: .6rem; font-size: .95rem; color: $muted; }
+.video-caption strong { color: $ink; }
+
+// ---------- Research ----------
+.pills { margin: .4rem 0 1rem; }
+.pill {
+  display: inline-block;
+  padding: .3rem .8rem;
+  margin: 0 .4rem .5rem 0;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid $line;
+  font-size: .9rem;
+}
+.project {
+  background: #fff;
+  border: 1px solid $line;
+  border-left: 4px solid $sage;
+  border-radius: 8px;
+  padding: 1.4rem 1.5rem .6rem;
+  margin: 1.4rem 0;
+}
+.project.blue { border-left-color: $sky; }
+.project .people { color: $muted; font-size: .95rem; }
+
+// ---------- About ----------
+.callout-connect {
+  background: linear-gradient(135deg, $sage, $sky);
+  border-radius: 12px;
+  padding: 1.6rem 1.8rem;
+  margin: 3rem 0 1rem;
+  p:last-child { margin-bottom: 0; }
+}
+
+.nav-footer { border-top: 1px solid $line; font-size: .9rem; }

@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs          # the rendered site goes here (GitHub Pages can serve this folder)
+
+website:
+  title: "Delphine PA Dang"
+  description: "Vietnamese artist, musician and researcher-in-training in Sydney, working across political theory, data science and film."
+  favicon: images/an-eye-for-an-i.jpg
+  open-graph: true
+  navbar:
+    background: light
+    left:
+      - href: art-music.qmd
+        text: Art & Music
+      - href: research.qmd
+        text: Research
+      - href: about.qmd
+        text: About me
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/phuonganh-dang/
+        aria-label: LinkedIn
+      - icon: instagram
+        href: https://www.instagram.com/delphinedang/
+        aria-label: Instagram
+      - icon: link-45deg
+        href: https://linktr.ee/delphinepadang
+        aria-label: Linktree
+  page-footer:
+    left: "© 2026 Delphine PA Dang · Sydney"
+    right: "Made with Quarto in RStudio"
+
+format:
+  html:
+    theme: [cosmo, theme.scss]   # colours & fonts live in theme.scss
+    toc: false
+    smooth-scroll: true
+    grid:
+      body-width: 980px

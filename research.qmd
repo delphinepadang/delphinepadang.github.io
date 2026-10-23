@@ -1,0 +1,63 @@
+---
+title: "Research"
+subtitle: "How we measure political beliefs, and what those measurements can tell us"
+---
+
+My research brings together political theory, data science and statistical methods. I'm particularly interested in how we measure political beliefs, and what those measurements can tell us, about people and, increasingly, about machines.
+
+::: {.pills}
+[Political theory]{.pill} [Computational international relations]{.pill} [Psychometrics]{.pill} [Political psychology]{.pill} [Predictive modelling]{.pill} [Machine learning]{.pill}
+:::
+
+## Current work
+
+::: {.project}
+[In progress]{.eyebrow}
+
+### Evaluating large language models with political psychology scales
+
+I'm investigating how we evaluate large language models using established political psychology scales: what it means for a model to "hold" a political attitude, and how far the measurement tools built for people can be trusted when they are applied to AI.
+:::
+
+::: {.project .blue}
+[Data Impact Lab · University of Sydney]{.eyebrow}
+
+### Facial expression studies
+
+With [Dr Jie Kang](https://data-impact.pages.dev/) (Data Impact Lab) and Prof Ted Ruffman (University of Otago).
+
+- Completed the statistical analysis for the project.
+- Two manuscripts in preparation, for the *Journal of Nonverbal Behavior* and *Cognition and Emotion*.
+:::
+
+::: {.project}
+[Sydney Policy Reform Project · Recipient, 2026]{.eyebrow}
+
+### Civics Education and Truth-Readiness: An International Comparative Analysis
+
+Faculty of Arts and Social Sciences, University of Sydney. Selected for Semester 2, 2026.
+
+- Co-authoring a policy paper for ANTAR under academic supervision.
+- Contributing research to policy and law reform for community organisations and public agencies.
+:::
+
+## Past work
+
+::: {.project .blue}
+[Charles Perkins Centre · Summer Research Scholarship 2025–26]{.eyebrow}
+
+### Statistical modelling for policy-making
+
+- Built an OLS regression model to support policy-making.
+- Provided the theoretical framework, grounding the work in Samuel Moyn's critique of human rights and Elizabeth Anderson's *Private Government*.
+
+[**Supervisors:** A/Prof Clara Grazian (Mathematics & Statistics) · Prof Alexandre Lefebvre (Politics & Philosophy)]{.people}
+:::
+
+## Research into art
+
+My research also finds its way into my art. *An Eye for an I* translates my findings on large language models into an audiovisual piece; it was presented at the Charles Perkins Centre EMCR Symposium. [See the film →](art-music.qmd#an-eye-for-an-i)
+
+## Looking ahead
+
+I plan to pursue a research career across computational psychometrics, political science, data science and political theory. I welcome conversations with researchers working on these questions. [Connect with me on LinkedIn](https://www.linkedin.com/in/phuonganh-dang/).
