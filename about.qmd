@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "Bibliography"
 subtitle: "Artist, musician and researcher"
 ---
 
