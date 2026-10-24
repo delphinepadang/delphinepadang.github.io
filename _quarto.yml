@@ -14,7 +14,7 @@ website:
       - href: research.qmd
         text: Research
       - href: about.qmd
-        text: About me
+        text: Biography
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/phuonganh-dang/

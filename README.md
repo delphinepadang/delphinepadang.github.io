@@ -13,7 +13,7 @@ A [Quarto](https://quarto.org) website you build and edit in RStudio.
 | `index.qmd` | Home page |
 | `art-music.qmd` | Art & Music page |
 | `research.qmd` | Research page |
-| `about.qmd` | About me page |
+| `about.qmd` | Biography page |
 | `images/` | Posters and any other pictures |
 | `docs/` | The finished website (created when you render; don't edit by hand) |
 
