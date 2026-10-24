@@ -8,7 +8,8 @@ A [Quarto](https://quarto.org) website you build and edit in RStudio.
 |---|---|
 | `delphine-website.Rproj` | Double-click this to open the project in RStudio |
 | `_quarto.yml` | Site settings: title, menu, social links, footer |
-| `theme.scss` | Colours (pastel green + blue) and fonts |
+| `theme.scss` | Colours (pastel green + blue) and font (Inter) |
+| `assets/site.html` | The interactive features |
 | `index.qmd` | Home page |
 | `art-music.qmd` | Art & Music page |
 | `research.qmd` | Research page |
@@ -31,9 +32,11 @@ A [Quarto](https://quarto.org) website you build and edit in RStudio.
 ## 3. Edit
 
 - Open any `.qmd` file and type. The text is ordinary Markdown: `**bold**`, `*italic*`, `[link text](https://...)`.
-- **Add a YouTube video:** `{{< video https://www.youtube.com/watch?v=VIDEO_ID >}}`
+- **Add a film or song:** in `art-music.qmd`, copy one `::: {.work ...}` block from the Film or Music section. For YouTube, set `data-video` to the part of the link after `v=` (it plays in a pop-up). For anything else (Instagram, Vimeo), use `data-link="https://..."` (it opens in a new tab). `data-label` changes the button text.
+- **Be My East video:** when it's online, change `::: {.work}` above Be My East to `::: {.work data-video="YOUTUBE_ID"}`.
+- **Add a research project:** in `research.qmd`, copy one `::: {.entry ...}` block. `data-when` is the date on the left; add `.open` to show the details from the start.
 - **Add an image:** put the file in `images/`, then `![](images/my-photo.jpg){fig-alt="describe the image"}`
-- **Be My East link:** in `art-music.qmd`, find the comment that says "When the video is public", paste the link, and remove the `<!--` and `-->` lines around it.
+- **Interactive parts** (the eye, video pop-ups, survey question, expanding projects) live in `assets/site.html`. You don't need to touch it.
 - **Change colours:** edit the hex codes at the top of `theme.scss`.
 
 ## 4. Put it online (free)

@@ -3,76 +3,101 @@ title: "Art & Music"
 subtitle: "Film, sound and performance as other ways of thinking"
 ---
 
-In Delphine's practice, the concept operates as an originary force, an immanent logic that precedes and determines its own conditions of material instantiation. The medium does not pre-exist the work but is called forth by the idea itself, such that photography, video art and film emerge not as discrete disciplinary choices but as contingent modalities through which thought achieves its sensible form. The artwork, in this sense, is less an object than an event of mediation between concept and matter.
+<!--
+HOW TO ADD A WORK
+Copy one ::: {.work ...} block and change the picture, label and title.
+- YouTube video: data-video="ID" (the part of the YouTube link after "v=")
+- Any other link (Instagram, Vimeo...): data-link="https://..."
+- data-label changes the button text. data-button="none" hides the button.
+-->
 
-::: {.pills}
-[Acting]{.pill} [Opera & singing]{.pill} [Songwriting]{.pill} [Composing]{.pill} [Producing]{.pill} [Editing]{.pill} [Photography]{.pill}
-:::
+## Film {#film}
 
-## Selected work
+::: {.film-grid}
 
-::: {#an-eye-for-an-i .work}
-::: {.grid}
-::: {.g-col-12 .g-col-md-5}
-![](images/an-eye-for-an-i.jpg){.poster fig-alt="Poster for An Eye for an I: two close-up eyes facing each other across a dark band, with the title in white serif type."}
-:::
-::: {.g-col-12 .g-col-md-7}
-[Art film · Research translation]{.eyebrow}
+::: {.work data-video="ig204wgDkpE" data-label="Watch"}
+![](images/an-eye-for-an-i.jpg){.poster fig-alt="Poster for An Eye for an I: two close-up eyes facing each other across a dark band."}
+
+::: {.work-text}
+[Art film]{.label}
 
 ### An Eye for an I
 
-My newest artwork translates my findings on large language models into an audiovisual piece, *An Eye for an I, The Change*. It was presented at the Charles Perkins Centre EMCR Symposium and at the Parramatta Lanes pop-up gallery.
-
-::: {.credits}
-**Vocalist, melodist, lyricist:** Delphine PA Dang<br>
-**Director:** Gavin Goh<br>
-**Composer:** Pico Dos Santos-Lee<br>
-**Researchers:** Delphine PA Dang, Dr Kangning Du, Dr Jie Kang, Dr Ming Zhao
-:::
+Presented at the Charles Perkins Centre EMCR Symposium and Parramatta Lanes.
 :::
 :::
 
-{{< video https://www.youtube.com/watch?v=ig204wgDkpE title="An Eye for an I" >}}
+::: {.work data-link="https://www.instagram.com/p/DebRFCvElon/" data-label="Watch on Instagram"}
+![](images/garden-of-art.jpg){.poster fig-alt="Poster for The Garden of Art: Delphine with eyes closed behind a bouquet of pastel flowers."}
+
+::: {.work-text}
+[Fashion film]{.label}
+
+### The Garden of Art
+:::
 :::
 
-::: {#be-my-east .work}
-::: {.grid}
-::: {.g-col-12 .g-col-md-5}
-![](images/be-my-east.jpg){.poster fig-alt="Poster for Be My East: two people sitting close together on the floor in a dim, film-grain room."}
-:::
-::: {.g-col-12 .g-col-md-7}
-[Music video · Editor]{.eyebrow}
+<!-- When the Be My East video is online, add data-video="YOUTUBE_ID" after .work below. -->
+::: {.work}
+![](images/be-my-east.jpg){.poster fig-alt="Poster for Be My East: two people sitting close together on the floor in a dim, grainy room."}
+
+::: {.work-text}
+[Music video, editor]{.label}
 
 ### Be My East
 
-A music video for **Cameron Dies Twice**, directed by **Gavin Goh**. I was the editor.
-
-[Winner · Best Cinematography, Sony Catchlight Festival 2026]{.badge-award}
-[Nominee · Best Music Video, Canberra Short Film Festival]{.badge-nom}
-[Nominee · Best Music Video, Catchlight Film Festival]{.badge-nom}
-
-<!-- When the video is public, paste its link below and delete these comment lines:
-[Watch Be My East →](https://www.youtube.com/watch?v=PASTE-ID-HERE)
--->
-:::
+Winner, Best Cinematography, Sony Catchlight Festival 2026. Nominee, Best Music Video, Canberra Short Film Festival and Catchlight Film Festival.
 :::
 :::
 
-## More films
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-{{< video https://www.youtube.com/watch?v=qVR4P50DPDs title="Visual film" >}}
-
-[**Visual film**<br>Short visual film.]{.video-caption}
-:::
-::: {.g-col-12 .g-col-md-6}
-{{< video https://www.youtube.com/watch?v=2Bb65tu4R4k title="Spec ad for Rhode Beauty" >}}
-
-[**Spec ad for Rhode Beauty**<br>An independent, uncommissioned spec commercial.]{.video-caption}
-:::
 :::
 
-## Collaborations
+::: {.film-grid .wide}
 
-In collaboration, I take on the roles of producer, composer-vocalist, assistant director and strategic manager to realise the visions of artists and brands. If you're making something and think I could help, [get in touch](about.qmd#connect).
+::: {.work data-video="qVR4P50DPDs" data-label="Watch"}
+![](https://i.ytimg.com/vi/qVR4P50DPDs/hqdefault.jpg){.thumb fig-alt="Still from Delphine's visual film."}
+
+::: {.work-text}
+[Visual film]{.label}
+
+### Visual film
+:::
+:::
+
+::: {.work data-video="2Bb65tu4R4k" data-label="Watch"}
+![](https://i.ytimg.com/vi/2Bb65tu4R4k/hqdefault.jpg){.thumb fig-alt="Still from a spec advertisement for Rhode Beauty."}
+
+::: {.work-text}
+[Spec commercial]{.label}
+
+### Rhode Beauty
+:::
+:::
+
+:::
+
+## Music {#music}
+
+::: {.songs}
+
+::: {.work .song data-video="ig204wgDkpE" data-label="Listen"}
+![](images/an-eye-for-an-i.jpg){.cover fig-alt="Cover for An Eye for an I."}
+
+::: {.work-text}
+### An Eye for an I
+
+Lyricist, melodist and vocalist
+:::
+:::
+
+::: {.work .song data-link="https://www.instagram.com/p/DebRFCvElon/" data-label="Listen on Instagram"}
+![](images/garden-of-art-2.jpg){.cover fig-alt="Cover for The Garden of Art: Delphine in a blue dress among flowers and long grass."}
+
+::: {.work-text}
+### The Garden of Art
+
+Lyricist, melodist and vocalist
+:::
+:::
+
+:::

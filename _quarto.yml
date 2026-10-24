@@ -1,14 +1,13 @@
 project:
   type: website
-  output-dir: docs          # the rendered site goes here (GitHub Pages can serve this folder)
+  output-dir: docs          # the finished site goes here (GitHub Pages serves this folder)
 
 website:
   title: "Delphine PA Dang"
-  description: "Vietnamese artist, musician and researcher-in-training in Sydney, working across political theory, data science and film."
+  description: "Vietnamese artist, musician and researcher-in-training in Sydney, working across film, music, political theory and data science."
   favicon: images/an-eye-for-an-i.jpg
   open-graph: true
   navbar:
-    background: light
     left:
       - href: art-music.qmd
         text: Art & Music
@@ -23,17 +22,18 @@ website:
       - icon: instagram
         href: https://www.instagram.com/delphinedang/
         aria-label: Instagram
-      - icon: link-45deg
-        href: https://linktr.ee/delphinepadang
-        aria-label: Linktree
+      - icon: envelope
+        href: mailto:delphinepadang@gmail.com
+        aria-label: Email
   page-footer:
-    left: "© 2026 Delphine PA Dang · Sydney"
-    right: "Made with Quarto in RStudio"
+    left: "© 2026 Delphine PA Dang, Sydney"
 
 format:
   html:
-    theme: [cosmo, theme.scss]   # colours & fonts live in theme.scss
+    theme: [cosmo, theme.scss]     # colours & fonts live in theme.scss
+    include-after-body: assets/site.html   # video pop-ups, the eye, the survey
+    anchor-sections: false
     toc: false
     smooth-scroll: true
     grid:
-      body-width: 980px
+      body-width: 1040px

@@ -3,61 +3,70 @@ title: "Research"
 subtitle: "How we measure political beliefs, and what those measurements can tell us"
 ---
 
-My research brings together political theory, data science and statistical methods. I'm particularly interested in how we measure political beliefs, and what those measurements can tell us, about people and, increasingly, about machines.
+My research brings together political theory, data science and statistical methods, with interests spanning computational international relations, political theory, predictive modelling and machine learning. Right now I'm part of the [Data Impact Lab](https://data-impact.pages.dev/).
 
-::: {.pills}
-[Political theory]{.pill} [Computational international relations]{.pill} [Psychometrics]{.pill} [Political psychology]{.pill} [Predictive modelling]{.pill} [Machine learning]{.pill}
+## Projects
+
+Click a project to read more.
+
+<!--
+HOW TO ADD A PROJECT
+Copy one ::: {.entry ...} block. data-when is the year shown on the left.
+Add .open after .entry to show its details from the start.
+-->
+
+::: {.timeline}
+
+::: {.entry .open data-when="2026"}
+### Evaluating language models with political psychology scales
+
+::: {.meta}
+Large language models, psychometrics, political psychology
 :::
 
-## Current work
-
-::: {.project}
-[In progress]{.eyebrow}
-
-### Evaluating large language models with political psychology scales
-
-I'm investigating how we evaluate large language models using established political psychology scales: what it means for a model to "hold" a political attitude, and how far the measurement tools built for people can be trusted when they are applied to AI.
+I'm investigating how we evaluate large language models using established political psychology scales: what it means for a model to "hold" a political attitude, and how far measurement tools built for people can be trusted when they are applied to AI.
 :::
 
-::: {.project .blue}
-[Data Impact Lab · University of Sydney]{.eyebrow}
-
+::: {.entry data-when="2026"}
 ### Facial expression studies
 
-With [Dr Jie Kang](https://data-impact.pages.dev/) (Data Impact Lab) and Prof Ted Ruffman (University of Otago).
+::: {.meta}
+Data Impact Lab, with Dr Jie Kang and Prof Ted Ruffman (University of Otago)
+:::
 
-- Completed the statistical analysis for the project.
+- Finished the statistical analysis.
 - Two manuscripts in preparation, for the *Journal of Nonverbal Behavior* and *Cognition and Emotion*.
 :::
 
-::: {.project}
-[Sydney Policy Reform Project · Recipient, 2026]{.eyebrow}
-
+::: {.entry data-when="2026"}
 ### Civics Education and Truth-Readiness: An International Comparative Analysis
 
-Faculty of Arts and Social Sciences, University of Sydney. Selected for Semester 2, 2026.
+::: {.meta}
+Sydney Policy Reform Project (recipient, 2026), Faculty of Arts and Social Sciences, University of Sydney
+:::
 
 - Co-authoring a policy paper for ANTAR under academic supervision.
 - Contributing research to policy and law reform for community organisations and public agencies.
 :::
 
-## Past work
-
-::: {.project .blue}
-[Charles Perkins Centre · Summer Research Scholarship 2025–26]{.eyebrow}
-
+::: {.entry data-when="2025"}
 ### Statistical modelling for policy-making
 
-- Built an OLS regression model to support policy-making.
-- Provided the theoretical framework, grounding the work in Samuel Moyn's critique of human rights and Elizabeth Anderson's *Private Government*.
-
-[**Supervisors:** A/Prof Clara Grazian (Mathematics & Statistics) · Prof Alexandre Lefebvre (Politics & Philosophy)]{.people}
+::: {.meta}
+Charles Perkins Centre Summer Research Scholarship
 :::
 
-## Research into art
+- Built an OLS predictive model to support policy-making.
+- Provided the theoretical framework, drawing on Samuel Moyn's critique of human rights and Elizabeth Anderson's *Private Government*.
+- Supervised by A/Prof Clara Grazian (Mathematics & Statistics) and Prof Alexandre Lefebvre (Politics & Philosophy).
+:::
 
-My research also finds its way into my art. *An Eye for an I* translates my findings on large language models into an audiovisual piece; it was presented at the Charles Perkins Centre EMCR Symposium. [See the film →](art-music.qmd#an-eye-for-an-i)
+:::
 
-## Looking ahead
+## From research to art
 
-I plan to pursue a research career across computational psychometrics, political science, data science and political theory. I welcome conversations with researchers working on these questions. [Connect with me on LinkedIn](https://www.linkedin.com/in/phuonganh-dang/).
+My findings on language models became the art film *An Eye for an I*. [Watch it](art-music.qmd)
+
+<!-- The two-question survey is built by assets/site.html. Nothing visitors click is saved. -->
+::: {#survey .survey}
+:::
