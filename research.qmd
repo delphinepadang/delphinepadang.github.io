@@ -7,61 +7,101 @@ My research brings together political theory, data science and statistical metho
 
 ## Projects
 
-Click a project to read more.
-
 <!--
 HOW TO ADD A PROJECT
-Copy one ::: {.entry ...} block. data-when is the year shown on the left.
-Add .open after .entry to show its details from the start.
+Copy one ::: {.project ...} block.
+- data-when is the date shown on the left.
+- In .outputs, the word in *stars* becomes the coloured status (Accepted, Submitted, In preparation...).
 -->
 
 ::: {.timeline}
 
-::: {.entry .open data-when="2026"}
-### Evaluating language models with political psychology scales
+::: {.project data-when="Jun 2026 – Present"}
+[Lead Author, Data Impact Lab]{.role}
 
-::: {.meta}
-Large language models, psychometrics, political psychology
+### Psychometric Measurement in Large Language Models
+
+[Supervised by Dr Jie Kang and Dr Kangning Du]{.people}
+
+::: {.questions}
+- Can an AI change its mind?
+- Ask it the same question twice and the answer can shift. Why?
+- Ask in another language. Does the answer change?
+- Does it take sides? And if it leans left or right, is it good at hiding it?
 :::
 
-I'm investigating how we evaluate large language models using established political psychology scales: what it means for a model to "hold" a political attitude, and how far measurement tools built for people can be trusted when they are applied to AI.
+I study these questions by giving large language models the same political psychology scales used with people, and testing whether the measurements hold up: what it means for a model to "hold" an attitude, and how far tools built for people can be trusted when they are applied to AI.
+
+::: {.outputs}
+- *Accepted* Abstract, 12th Charles Perkins Centre EMCR Symposium
+- *Submitted* Manuscript, collection "Large Language Models in Psychological Science", *Humanities and Social Sciences Communications* (Nature Portfolio)
+:::
 :::
 
-::: {.entry data-when="2026"}
-### Facial expression studies
+::: {.project data-when="Sep 2026 – Present"}
+[Student Researcher, recipient 2026]{.role}
 
-::: {.meta}
-Data Impact Lab, with Dr Jie Kang and Prof Ted Ruffman (University of Otago)
-:::
+### Sydney Policy Reform Project
 
-- Finished the statistical analysis.
-- Two manuscripts in preparation, for the *Journal of Nonverbal Behavior* and *Cognition and Emotion*.
-:::
+[Faculty of Arts and Social Sciences, University of Sydney]{.people}
 
-::: {.entry data-when="2026"}
-### Civics Education and Truth-Readiness: An International Comparative Analysis
-
-::: {.meta}
-Sydney Policy Reform Project (recipient, 2026), Faculty of Arts and Social Sciences, University of Sydney
-:::
-
-- Co-authoring a policy paper for ANTAR under academic supervision.
+- Co-authoring a policy paper for ANTAR, *Civics Education and Truth-Readiness: An International Comparative Analysis*.
 - Contributing research to policy and law reform for community organisations and public agencies.
 :::
 
-::: {.entry data-when="2025"}
-### Statistical modelling for policy-making
+::: {.project data-when="Jul – Sep 2026"}
+[Statistical Analyst and Contributing Author, Data Impact Lab]{.role}
 
-::: {.meta}
-Charles Perkins Centre Summer Research Scholarship
+### Facial Expression Studies
+
+[With Professor Ted Ruffman, University of Otago]{.people}
+
+Finished the statistical analysis for two manuscripts.
+
+::: {.outputs}
+- *In preparation* *Journal of Nonverbal Behavior* (Springer Nature)
+- *In preparation* *Cognition and Emotion* (Taylor & Francis Group)
 :::
+:::
+
+::: {.project data-when="2025"}
+[Summer Research Scholar, Charles Perkins Centre]{.role}
+
+### Statistical Modelling for Policy-Making
+
+[Supervised by A/Prof Clara Grazian (Mathematics & Statistics) and Prof Alexandre Lefebvre (Politics & Philosophy)]{.people}
 
 - Built an OLS predictive model to support policy-making.
 - Provided the theoretical framework, drawing on Samuel Moyn's critique of human rights and Elizabeth Anderson's *Private Government*.
-- Supervised by A/Prof Clara Grazian (Mathematics & Statistics) and Prof Alexandre Lefebvre (Politics & Philosophy).
 :::
 
 :::
+
+## Data visualisation
+
+```{=html}
+<a class="report-card" href="https://delphinepadang.github.io/Licensing_Synroc_ANSTO/docs/index.html#questions" target="_blank" rel="noopener">
+  <div class="report-visual" aria-hidden="true">
+    <svg viewBox="10 50 300 100" role="presentation">
+      <line class="axis" x1="20" y1="100" x2="300" y2="100"/>
+      <path class="bracket" d="M236 72 V62 H299 V72"/>
+      <g class="dots">
+        <circle cx="40" cy="100" r="11"/><circle cx="75" cy="100" r="11"/><circle cx="110" cy="100" r="11"/><circle cx="145" cy="100" r="11"/>
+        <circle cx="180" cy="100" r="11"/><circle cx="215" cy="100" r="11"/>
+        <circle class="pick" cx="250" cy="100" r="13"/><circle class="pick" cx="285" cy="100" r="13"/>
+      </g>
+    </svg>
+    <span class="report-note">8 jurisdictions screened, 2 potential markets</span>
+  </div>
+  <div class="report-text">
+    <p class="label">Interactive report, October 2026</p>
+    <h3>Licensing Synroc</h3>
+    <p class="report-q">Where should ANSTO take this technology first?</p>
+    <p>A comparative data visualisation and statistical decision-making framework to bring Synroc to new markets. Built in R and Quarto with a team of six, for SCPU3001 with industry partner ANSTO.</p>
+    <span class="btn-watch offsite">Explore the report</span>
+  </div>
+</a>
+```
 
 ## From research to art
 

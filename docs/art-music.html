@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c04e55dc2674facab9152508af178c56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6b3e743bb2d5851d8d551261fc42315a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:image:alt" content="Poster for An Eye for an I: two close-up eyes facing each other across a dark band.">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed dark-page fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -163,46 +163,76 @@ ul.task-list li input[type="checkbox"] {
 
 <!--
 HOW TO ADD A WORK
-Copy one ::: {.work ...} block and change the picture, label and title.
+Copy one ::: {.feature ...} block and change the picture, label, title and roles.
 - YouTube video: data-video="ID" (the part of the YouTube link after "v=")
 - Any other link (Instagram, Vimeo...): data-link="https://..."
-- data-label changes the button text. data-button="none" hides the button.
+- data-label changes the button text. Add .flip to put the picture on the right.
 -->
 <section id="film" class="level2">
 <h2 data-anchor-id="film">Film</h2>
-<div class="film-grid">
-<div class="work" data-video="ig204wgDkpE" data-label="Watch">
+<div class="feature" data-video="ig204wgDkpE" data-label="Watch the film">
 <p><img src="images/an-eye-for-an-i.jpg" class="poster img-fluid" alt="Poster for An Eye for an I: two close-up eyes facing each other across a dark band."></p>
 <div class="work-text">
 <p><span class="label">Art film</span></p>
 <section id="an-eye-for-an-i" class="level3">
 <h3 data-anchor-id="an-eye-for-an-i">An Eye for an I</h3>
-<p>Presented at the Charles Perkins Centre EMCR Symposium and Parramatta Lanes.</p>
+<p><span class="roles">Lead artist, lead researcher, co-composer and vocalist</span></p>
+<p>My findings on large language models, translated into sound and image.</p>
+<div class="actions">
+
+</div>
+<div class="shown">
+<p>Shown at the Charles Perkins Centre EMCR Symposium and the Parramatta Lanes pop-up gallery, Bodega Lane, 21–22 October 2026.</p>
+</div>
+<div class="exhibit-row">
+<p><img src="images/parramatta-lanes.jpg" class="exhibit img-fluid" alt="Bodega Lane pop-up gallery poster: Parramatta Lanes, 21 to 24 October 2026, here's the shortlist."></p>
+<p><img src="images/parramatta-shortlist.jpg" class="exhibit img-fluid" alt="Shortlisted artwork list for Bodega Lane, including Delphine PA Dang, An Eye for an I, exhibited 21 to 22 October."></p>
+</div>
 </section>
 </div>
 </div>
-<div class="work" data-link="https://www.instagram.com/p/DebRFCvElon/" data-label="Watch on Instagram">
+<div class="feature flip" data-link="https://www.instagram.com/p/DebRFCvElon/" data-label="Watch on Instagram">
 <p><img src="images/garden-of-art.jpg" class="poster img-fluid" alt="Poster for The Garden of Art: Delphine with eyes closed behind a bouquet of pastel flowers."></p>
 <div class="work-text">
 <p><span class="label">Fashion film</span></p>
 <section id="the-garden-of-art" class="level3">
 <h3 data-anchor-id="the-garden-of-art">The Garden of Art</h3>
+<p><span class="roles">Executive producer, actor, opera singer and songwriter</span></p>
+<div class="actions">
+<p><a href="#music" class="text-link">Listen to the song</a></p>
+</div>
 </section>
 </div>
 </div>
-<!-- When the Be My East video is online, add data-video="YOUTUBE_ID" after .work below. -->
-<div class="work">
-<p><img src="images/be-my-east.jpg" class="poster img-fluid" alt="Poster for Be My East: two people sitting close together on the floor in a dim, grainy room."></p>
+<!-- When the Be My East video is online, add data-video="YOUTUBE_ID" after .feature below. -->
+<div class="feature">
+<p><img src="images/be-my-east.jpg" class="poster img-fluid" alt="Poster for Be My East: two people sitting close together on the floor in a dim room, with festival laurels."></p>
 <div class="work-text">
-<p><span class="label">Music video, editor</span></p>
+<p><span class="label">Music video for Cameron Dies Twice</span></p>
 <section id="be-my-east" class="level3">
 <h3 data-anchor-id="be-my-east">Be My East</h3>
-<p>Winner, Best Cinematography, Sony Catchlight Festival 2026. Nominee, Best Music Video, Canberra Short Film Festival and Catchlight Film Festival.</p>
+<p><span class="roles">Editor, in collaboration with director Gavin Goh</span></p>
+<div class="honours">
+<ul>
+<li><em>Winner</em> Best Cinematography, Sony Catchlight Festival 2026</li>
+<li><em>Nominee</em> Best Music Video, Canberra Short Film Festival</li>
+<li><em>Nominee</em> Best Music Video, Catchlight Film Festival</li>
+</ul>
+</div>
 </section>
 </div>
 </div>
+<div class="pair">
+<div class="work" data-video="2Bb65tu4R4k" data-label="Watch">
+<p><img src="https://i.ytimg.com/vi/2Bb65tu4R4k/hqdefault.jpg" class="thumb img-fluid" alt="Still from a spec advertisement for Rhode Beauty."></p>
+<div class="work-text">
+<p><span class="label">Spec commercial</span></p>
+<section id="rhode-beauty" class="level3">
+<h3 data-anchor-id="rhode-beauty">Rhode Beauty</h3>
+<p><span class="roles">Actress and producer</span></p>
+</section>
 </div>
-<div class="film-grid wide">
+</div>
 <div class="work" data-video="qVR4P50DPDs" data-label="Watch">
 <p><img src="https://i.ytimg.com/vi/qVR4P50DPDs/hqdefault.jpg" class="thumb img-fluid" alt="Still from Delphine's visual film."></p>
 <div class="work-text">
@@ -212,31 +242,25 @@ Copy one ::: {.work ...} block and change the picture, label and title.
 </section>
 </div>
 </div>
-<div class="work" data-video="2Bb65tu4R4k" data-label="Watch">
-<p><img src="https://i.ytimg.com/vi/2Bb65tu4R4k/hqdefault.jpg" class="thumb img-fluid" alt="Still from a spec advertisement for Rhode Beauty."></p>
-<div class="work-text">
-<p><span class="label">Spec commercial</span></p>
-<section id="rhode-beauty" class="level3">
-<h3 data-anchor-id="rhode-beauty">Rhode Beauty</h3>
-</section>
-</div>
-</div>
 </div>
 </section>
 <section id="music" class="level2">
 <h2 data-anchor-id="music">Music</h2>
+<!-- The waveform player: data-src is the audio file, data-peaks is the waveform shape. -->
+<div class="song-card">
+  <img class="song-cover" src="images/garden-of-art-2.jpg" alt="Cover for The Garden of Art: Delphine in a blue dress among flowers and long grass.">
+  <div class="song-body">
+    <p class="label">Song for the fashion film</p>
+    <h3>The Garden of Art</h3>
+    <p class="roles">Lyricist, melodist and vocalist</p>
+    <div class="player" data-src="audio/the-garden-of-art.mp3" data-title="The Garden of Art" data-peaks="[0.054,0.087,0.099,0.305,0.233,0.475,0.313,0.45,0.428,0.389,0.37,0.37,0.812,0.773,0.518,0.546,0.406,0.326,0.173,0.283,0.262,0.613,0.878,0.6,0.365,0.42,0.407,0.381,0.415,0.458,0.53,0.603,0.596,0.478,0.38,0.298,0.24,0.296,0.353,0.245,0.377,0.357,0.375,0.416,0.364,0.437,0.48,0.502,0.575,0.59,0.68,0.722,0.834,0.647,0.596,0.771,0.972,1.0,0.808,0.776,0.761,0.489,0.156,0.07,0.043,0.055,0.07,0.168,0.298,0.378,0.464,0.549,0.526,0.452,0.397,0.258,0.209,0.201,0.197,0.161,0.129,0.13,0.157,0.177,0.197,0.161,0.18,0.207,0.188,0.242,0.258,0.3,0.246,0.305,0.281,0.299,0.242,0.15,0.252,0.336,0.404,0.375,0.263,0.235,0.252,0.468,0.503,0.401,0.284,0.334,0.377,0.333,0.349,0.352,0.373,0.278,0.168,0.089,0.032,0.005]"></div>
+  </div>
+</div>
 <div class="songs">
 <div class="work song" data-video="ig204wgDkpE" data-label="Listen">
 <p><img src="images/an-eye-for-an-i.jpg" class="cover img-fluid" alt="Cover for An Eye for an I."></p>
 <section id="an-eye-for-an-i-1" class="level3 work-text">
 <h3 data-anchor-id="an-eye-for-an-i-1">An Eye for an I</h3>
-<p>Lyricist, melodist and vocalist</p>
-</section>
-</div>
-<div class="work song" data-link="https://www.instagram.com/p/DebRFCvElon/" data-label="Listen on Instagram">
-<p><img src="images/garden-of-art-2.jpg" class="cover img-fluid" alt="Cover for The Garden of Art: Delphine in a blue dress among flowers and long grass."></p>
-<section id="the-garden-of-art-1" class="level3 work-text">
-<h3 data-anchor-id="the-garden-of-art-1">The Garden of Art</h3>
 <p>Lyricist, melodist and vocalist</p>
 </section>
 </div>
@@ -490,46 +514,101 @@ Copy one ::: {.work ...} block and change the picture, label and title.
     }
 
     if (work.dataset.button !== 'none') {
-      const text = work.querySelector('.work-text') || work;
       const btn = makeAction(document.createElement(tag), 'btn-watch' + (id ? '' : ' offsite'));
       btn.textContent = work.dataset.label || (id ? 'Watch the film' : 'Open');
-      text.appendChild(btn);
+      const slot = work.querySelector('.actions');      // put the button in .actions if there is one
+      if (slot) slot.prepend(btn);
+      else (work.querySelector('.work-text') || work).appendChild(btn);
     }
   });
 
-  /* ---------- 3. Research timeline: click a title to open the details ---------- */
-  document.querySelectorAll('.entry').forEach((entry, i) => {
-    const h = entry.querySelector('h3');
-    if (!h) return;
-    const parent = h.parentElement;
-    const rest = [];
-    let n = h.nextElementSibling;
-    while (n) { if (!n.classList.contains('meta')) rest.push(n); n = n.nextElementSibling; }
-    if (!rest.length) return;
+  /* ---------- 3. Click an exhibition image to see it full size ---------- */
+  const exhibits = document.querySelectorAll('img.exhibit');
+  if (exhibits.length) {
+    const box = document.createElement('dialog');
+    box.className = 'img-dialog';
+    box.setAttribute('aria-label', 'Image viewer');
+    box.innerHTML = '<button class="close" type="button">Close</button><img alt="">';
+    document.body.appendChild(box);
+    const big = box.querySelector('img');
+    box.querySelector('.close').addEventListener('click', () => box.close());
+    box.addEventListener('click', e => { if (e.target === box || e.target === big) box.close(); });
+    exhibits.forEach(img => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'zoom';
+      b.setAttribute('aria-label', 'View full size: ' + (img.alt || 'image'));
+      img.replaceWith(b);
+      b.appendChild(img);
+      b.addEventListener('click', () => { big.src = img.src; big.alt = img.alt; box.showModal(); });
+    });
+  }
 
-    const body = document.createElement('div');
-    body.className = 'entry-body';
-    body.id = 'entry-body-' + i;
-    const inner = document.createElement('div');
-    body.appendChild(inner);
-    rest.forEach(el => inner.appendChild(el));
-    parent.appendChild(body);
+  /* ---------- 3b. Waveform audio player: <div class="player" data-src="..." data-peaks="[...]"> ---------- */
+  document.querySelectorAll('.player[data-src]').forEach(el => {
+    let peaks = [];
+    try { peaks = JSON.parse(el.dataset.peaks || '[]'); } catch (e) {}
+    if (!peaks.length) peaks = Array.from({ length: 80 }, () => .5);
+    const title = el.dataset.title || 'track';
+    const audio = new Audio();
+    audio.preload = 'metadata';
+    audio.src = el.dataset.src;
 
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'entry-toggle';
-    btn.setAttribute('aria-controls', body.id);
-    while (h.firstChild) btn.appendChild(h.firstChild);
-    const sign = document.createElement('span');
-    sign.className = 'sign';
-    sign.setAttribute('aria-hidden', 'true');
-    sign.textContent = '+';
-    btn.appendChild(sign);
-    h.appendChild(btn);
+    el.innerHTML =
+      '<button type="button" class="pp" aria-label="Play ' + title + '"><span class="ico"></span></button>' +
+      '<div class="wave" role="slider" tabindex="0" aria-label="Seek in ' + title + '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">' +
+        peaks.map(v => '<i style="height:' + Math.max(6, Math.round(v * 100)) + '%"></i>').join('') +
+      '</div>' +
+      '<span class="time"><span class="cur">0:00</span> / <span class="dur">–:––</span></span>';
 
-    const set = open => { btn.setAttribute('aria-expanded', open); body.classList.toggle('open', open); };
-    set(entry.classList.contains('open'));
-    btn.addEventListener('click', () => set(btn.getAttribute('aria-expanded') !== 'true'));
+    const pp = el.querySelector('.pp');
+    const wave = el.querySelector('.wave');
+    const bars = Array.from(wave.children);
+    const cur = el.querySelector('.cur');
+    const dur = el.querySelector('.dur');
+    const fmt = s => isFinite(s) ? Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0') : '–:––';
+    const paint = (frac, cls) => {
+      const n = Math.round(frac * bars.length);
+      bars.forEach((b, i) => b.classList.toggle(cls, i < n));
+    };
+    const update = () => {
+      const f = audio.duration ? audio.currentTime / audio.duration : 0;
+      paint(f, 'on');
+      cur.textContent = fmt(audio.currentTime);
+      wave.setAttribute('aria-valuenow', Math.round(f * 100));
+      wave.setAttribute('aria-valuetext', fmt(audio.currentTime) + ' of ' + fmt(audio.duration));
+    };
+    const seekTo = frac => {
+      if (!audio.duration) { audio.addEventListener('loadedmetadata', () => seekTo(frac), { once: true }); audio.load(); return; }
+      audio.currentTime = Math.max(0, Math.min(1, frac)) * audio.duration;
+      update();
+    };
+
+    audio.addEventListener('loadedmetadata', () => { dur.textContent = fmt(audio.duration); });
+    audio.addEventListener('timeupdate', update);
+    audio.addEventListener('play', () => { el.classList.add('playing'); pp.setAttribute('aria-label', 'Pause ' + title); });
+    audio.addEventListener('pause', () => { el.classList.remove('playing'); pp.setAttribute('aria-label', 'Play ' + title); });
+    audio.addEventListener('ended', () => { audio.currentTime = 0; update(); });
+    pp.addEventListener('click', () => {
+      document.querySelectorAll('.player.playing').forEach(o => { if (o !== el && o._audio) o._audio.pause(); });
+      audio.paused ? audio.play() : audio.pause();
+    });
+    el._audio = audio;
+
+    const fracAt = e => {
+      const r = wave.getBoundingClientRect();
+      return (e.clientX - r.left) / r.width;
+    };
+    wave.addEventListener('pointermove', e => paint(fracAt(e), 'hover'));
+    wave.addEventListener('pointerleave', () => paint(0, 'hover'));
+    wave.addEventListener('click', e => seekTo(fracAt(e)));
+    wave.addEventListener('keydown', e => {
+      if (!audio.duration) return;
+      const step = e.shiftKey ? 15 : 5;
+      if (e.key === 'ArrowRight') { audio.currentTime = Math.min(audio.duration, audio.currentTime + step); update(); e.preventDefault(); }
+      if (e.key === 'ArrowLeft') { audio.currentTime = Math.max(0, audio.currentTime - step); update(); e.preventDefault(); }
+      if (e.key === ' ' || e.key === 'Enter') { pp.click(); e.preventDefault(); }
+    });
   });
 
   /* ---------- 4. Two-question survey on the Research page (nothing is saved) ---------- */

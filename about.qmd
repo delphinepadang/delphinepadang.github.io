@@ -3,22 +3,26 @@ title: "Biography"
 subtitle: "Artist, musician and researcher"
 ---
 
+::: {.bio-grid}
+![](images/garden-of-art-2.jpg){.portrait fig-alt="Delphine in a blue dress, sitting in long grass with a bouquet of flowers, looking at the camera."}
+
 ::: {.bio}
 Delphine PA Dang is a Vietnamese artist, musician and researcher based in Sydney. Her research-led artistic practice draws on data science and international relations, with particular interests in political theory, political thought and computational international relations. Working across sound, performance and moving image, she brings creative experimentation and academic inquiry into dialogue.
 
 Her practice encompasses acting, songwriting and singing, alongside collaborative roles as a producer, assistant director and editor. She trained in opera for seven years, beginning her formal vocal training after receiving the Golden Buzzer on *Vietnam's Got Talent*. She also plays bass and has a background in ballet and theatre. These disciplines shape her approach to composition, presence and narrative across her artistic work.
+:::
 :::
 
 ## Awards, selections and funding
 
 <!-- To add a year, copy the whole ::: {.awards ...} block and change data-when. -->
 ::: {.awards data-when="2026"}
-- *Winner* Best Cinematography, Sony Catchlight Festival, in collaboration with director Gavin Goh
-- *Nominee* Best Music Video, Canberra Short Film Festival
-- *Nominee* Best Music Video, Catchlight Film Festival
-- *Selected* Parramatta Lanes, Bodega Lane (art film)
-- *Selected* Charles Perkins Centre EMCR Symposium (art film)
-- *Funded* North Sydney Council (fashion film)
+- [Winner]{.tag .win} Best Cinematography, Sony Catchlight Festival, in collaboration with director Gavin Goh
+- [Nominee]{.tag} Best Music Video, Canberra Short Film Festival
+- [Nominee]{.tag} Best Music Video, Catchlight Film Festival
+- [Selected]{.tag .sel} Parramatta Lanes, Bodega Lane (art film)
+- [Selected]{.tag .sel} Charles Perkins Centre EMCR Symposium (art film)
+- [Funded]{.tag .fund} North Sydney Council (fashion film)
 :::
 
 ::: {#connect .connect}

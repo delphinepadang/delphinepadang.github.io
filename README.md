@@ -15,6 +15,7 @@ A [Quarto](https://quarto.org) website you build and edit in RStudio.
 | `research.qmd` | Research page |
 | `about.qmd` | Biography page |
 | `images/` | Posters and any other pictures |
+| `audio/` | Music files for the waveform player |
 | `docs/` | The finished website (created when you render; don't edit by hand) |
 
 ## 1. Open it in RStudio
@@ -32,11 +33,14 @@ A [Quarto](https://quarto.org) website you build and edit in RStudio.
 ## 3. Edit
 
 - Open any `.qmd` file and type. The text is ordinary Markdown: `**bold**`, `*italic*`, `[link text](https://...)`.
-- **Add a film or song:** in `art-music.qmd`, copy one `::: {.work ...}` block from the Film or Music section. For YouTube, set `data-video` to the part of the link after `v=` (it plays in a pop-up). For anything else (Instagram, Vimeo), use `data-link="https://..."` (it opens in a new tab). `data-label` changes the button text.
-- **Be My East video:** when it's online, change `::: {.work}` above Be My East to `::: {.work data-video="YOUTUBE_ID"}`.
-- **Add a research project:** in `research.qmd`, copy one `::: {.entry ...}` block. `data-when` is the date on the left; add `.open` to show the details from the start.
+- **Add a film:** in `art-music.qmd`, copy one `::: {.feature ...}` block. For YouTube, set `data-video` to the part of the link after `v=` (it plays in a pop-up). For anything else (Instagram, Vimeo), use `data-link="https://..."` (it opens in a new tab). `data-label` changes the button text; add `.flip` to put the poster on the right.
+- **Add a song with the waveform player:** put the MP3 in `audio/`, then copy the `<div class="song-card">` block in `art-music.qmd` and change `data-src`, the title and the cover.
+- **Be My East video:** when it's online, change `::: {.feature}` above Be My East to `::: {.feature data-video="YOUTUBE_ID"}`.
+- **Exhibition images:** give an image the class `{.exhibit}` and visitors can click it to see it full size.
+- **Add a research project:** in `research.qmd`, copy one `::: {.project ...}` block. `data-when` is the date on the left. In `.outputs`, the first word in `*stars*` becomes the coloured status.
+- **Add an award:** in `about.qmd`, copy a line in the awards list. Tags: `{.tag .win}`, `{.tag}` (nominee), `{.tag .sel}`, `{.tag .fund}`.
 - **Add an image:** put the file in `images/`, then `![](images/my-photo.jpg){fig-alt="describe the image"}`
-- **Interactive parts** (the eye, video pop-ups, survey question, expanding projects) live in `assets/site.html`. You don't need to touch it.
+- **Interactive parts** (the home page lens, video pop-ups, music player, image viewer, survey) live in `assets/site.html`. You don't need to touch it.
 - **Change colours:** edit the hex codes at the top of `theme.scss`.
 
 ## 4. Put it online (free)

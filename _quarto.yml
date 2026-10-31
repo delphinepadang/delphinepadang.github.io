@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs          # the finished site goes here (GitHub Pages serves this folder)
+  resources:
+    - audio/*.mp3           # music files copied into the finished site
 
 website:
   title: "Delphine PA Dang"
